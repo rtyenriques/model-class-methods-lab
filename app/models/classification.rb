@@ -4,10 +4,13 @@ class Classification < ActiveRecord::Base
 
   def self.my_all
     # all
+    all
   end
 
   def self.longest
     # Boat.longest.classifications
+
+    Boat.longest.classifications
   end
 
 end
